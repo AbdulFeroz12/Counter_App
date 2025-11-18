@@ -1,16 +1,44 @@
-# React + Vite
+Counter App — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Version: v0.0.1
 
-Currently, two official plugins are available:
+A simple Counter application built using React, demonstrating basic concepts such as components, state management (useState), props, event handling, and styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## React Compiler
+Increment the counter
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Decrement the counter
 
-## Expanding the ESLint configuration
+Reset the counter to zero
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styled using CSS
+
+Fast and responsive UI
+
+
+📂 Project Structure
+src/
+│── App.jsx
+│── main.jsx
+│── index.css
+└── assets/
+
+🛠 Tech Stack
+
+React (Vite-based setup or CRA)
+
+JavaScript
+
+CSS
+
+Installation & Setup
+Clone the repository
+git clone https://github.com/your-username/counter-app.git
+cd counter-app
+
+Install dependencies
+npm install
+
+Run the app
+npm run dev
