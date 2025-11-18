@@ -1,0 +1,27 @@
+.box {
+  width: 500px;
+  padding: 40px;
+  margin: 50px auto;
+  background: linear-gradient(135deg, #f0dcee, #fc75fc);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.02);
+}
+.box2 {
+  
+  background: linear-gradient(135deg, #34a3d7, #94e1e2);
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.box2:hover {
+  transform: scale(1.02);
+}
+body{
+    background-color:#9be3d2;
+}
