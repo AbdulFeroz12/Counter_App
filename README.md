@@ -1,10 +1,10 @@
 Counter App — React
 
-Version: v0.0.1
+#Version: v0.0.1
 
 A simple Counter application built using React, demonstrating basic concepts such as components, state management (useState), props, event handling, and styling.
 
-Features
+#Features
 
 Increment the counter
 
@@ -24,7 +24,7 @@ src/
 │── index.css
 └── assets/
 
-🛠 Tech Stack
+Tech Stack
 
 React (Vite-based setup or CRA)
 
